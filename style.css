@@ -1,6 +1,7 @@
 body {
-    color: #dddddd;
     background-image: url("assets/images/interlaced.png");
+    margin: 0;
+    color: #777777;
 }
 
 .header1 {
@@ -19,6 +20,11 @@ body {
     margin: auto;
     margin-bottom: 20px;
     max-width: 720px;
+}
+
+.box {
+    width: 100vw;
+    background: #ffffff;
 }
 
 
@@ -211,16 +217,65 @@ li {
     background: #ffffff;
     margin: auto;
     max-width: 720px;
-    padding-bottom: 15px;
 }
 
 .words {
     padding-left: 250px;
 }
 
-.pages {
-    float: right;
-    color: purple;
-    padding: 20px;
-    margin: 0;
+.footer {
+    background-color: #666666;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center; 
+    border-top: 10px solid #4aaaa5;
+}
+
+
+input {
+    width: 95%;
+    margin-left: 15px;
+}
+
+.namebox {
+    margin-bottom: 2%;
+}
+
+.emailbox {
+    margin-bottom: 2%;
+}
+
+.textbox {
+    width: 95%;
+    margin-left: 2%;
+    height: 150px;
+}
+
+.name {
+    margin-left: 2%;
+}
+
+.email {
+    margin-left: 2%;
+}
+
+.message {
+    margin-left: 2%;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 2%;
 }
